@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'Oswald';
+	src: url('../font/Oswald-Light.ttf') format('truetype');
+}
+
+html	{
+	font-family: 'Oswald', sans-serif;
+}
+
+#ZoneBanniere {
+
+	background-color: black;
+	height: 4.5em; width: 101.13%;
+	margin-top: -.5%;
+	margin-left: -.6%;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	position: fixed;
+}
+
+#zoneArticle	{
+	background-color: #FFF;
+	width: 80%; height: 100%;
+	margin-left: 8.7%;
+	padding-top: 4.5em;
+}
+
+#banniereGauche h1 {
+
+	font-size: 200%;
+	padding-left: .8%;
+	font-weight: bold;
+
+}
+
+#banniereDroite {
+	margin-top: -3.9%;
+	padding-left: 82%;
+	font-size: 80%;
+}
+
+#banniereDroite a {
+	text-decoration: none;
+	color: grey;
+}
+
+#banniereDroite h2 {
+	margin-top: 0%;	
+	margin-right: 18%;
+}
+
+.banniere	{
+	z-index: 100;
+}
+
+body	{
+	
+	background-color : grey;
+}
+
+#menu	{
+	width: 10%;
+	margin-left:;
+	background-color: black;
+	color: white;
+	border: black;
+	font-family: 'Oswald', sans-serif;
+	position: absolute;
+}
+
+#menu div	{
+	background-color: black;
+	color: white;
+	border: black;
+}
+
+#menu li, ul {
+	background-color: black;
+}
+
+#menuNav	{
+	width: 10%;
+	display : none;
+	margin-left: -0.4%;
+	background-color: black;
+}
+
+#boutonMenu	{
+	background-image: url('../images/iconeMenu.png');
+	width: 30px; height: 30px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: none;
+	position: absolute;
+	margin-top: -3.8%;
+	margin-left: 13%;
+	cursor: pointer;
+}
+
+#boutonUtilisateur	{
+	background-image: url('../images/utilisateurs.png');
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: none;
+	position: absolute;
+	margin-left: -7%;
+	margin-top: -1%;
+	cursor: pointer;
+}

@@ -2,7 +2,7 @@
     <div id="banniereGauche">
     	<table>
         	<tr>
-            	<td><h1 class="banniere">BookTic.com</h1></td>
+            	<td><a href="index.php?action=accueil" class="banniere"><h1>BookTic.com</h1></a></td>
                 <td><button onclick="hideMenu()" id="boutonMenu" class="banniere"></button></td>
             </tr>
         </table> 

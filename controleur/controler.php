@@ -16,6 +16,9 @@
 			include 'vues/moncompte.php';
 			break;
 
+		case 'mentions':
+			include 'vues/mentions.php';
+			break;
 			
 		default:
 			include 'vues/accueil.php';

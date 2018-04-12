@@ -5,7 +5,7 @@ $(document).ready(function()  {
     createPopup();
     $('#popup').append('<h1 id="titleConnect" class="popupConnect">Connexion utilisateur</h1>');
 	$('#popup').append('<div id="formConnect">');
-    $('#popup').append('<form method="POST" action="php/connexion.php">');
+    $('#popup').append('<form method="get" action="../php/connexion.php">');
     $('#popup').append('<input type="texte" id="username" class="popupConnect" placeholder="Identifiant" /></br>');
     $('#popup').append('<input type="password" id="password" class="popupConnect" placeholder="Mot de passe" /></br>');
     $('#popup').append('<input type="submit" id="submitConnect" class="popupConnect" value=" " title="Connexion" /></br>');

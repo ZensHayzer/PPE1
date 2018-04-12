@@ -57,7 +57,13 @@ html	{
 	font-size: 200%;
 	padding-left: 30px;
 	font-weight: bold;
+	text-decoration : none;
 
+}
+
+#banniereGauche a {
+	text-decoration: none;
+	color : white;
 }
 
 /* Boutton Menu déroulant */
@@ -83,6 +89,7 @@ html	{
 	top: 0; right:0;
 	position: absolute;
 }
+
 
 #banniereDroite a {
 	text-decoration: none;

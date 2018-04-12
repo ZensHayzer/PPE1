@@ -30,6 +30,11 @@ html	{
 	z-index: 3;
 }
 
+.banniere {
+	text-decoration: none;
+	color : white;
+}
+
 
 /* Zone de contenu de la page */
 

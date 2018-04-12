@@ -11,7 +11,7 @@ catch(Exception $e)
 
 
 $reponse = $bdd->query('SELECT * FROM auteur');
-$livre = $bdd->prepare('SELECT * FROM document WHERE idauteur = ?');
+$livre = $bdd->prepare('SELECT * FROM document WHERE ID_Auteur = ?');
 
 echo '<div >';
 echo '<table id="gestDocTab">';
@@ -24,14 +24,14 @@ echo '  	<tr>
 		
 while ($donnees = $reponse->fetch())
 {
-		$livre -> execute(array($donnees['id']));
+		$livre -> execute(array($donnees['ID_Auteur']));
 		$donneesLivre = $livre -> fetch();
 		
         echo '<tr>';
-		echo '<td>'.$donnees['nom'].'</td>';
-		echo '<td>'.$donnees['prenom'].'</td>';
-		echo '<td>'.$donneesLivre['titre'].'</td>';
-		echo '<td>'.$donneesLivre['date'].'</td>';
+		echo '<td>'.$donnees['Nom_Auteur'].'</td>';
+		echo '<td>'.$donnees['Prenom_Auteur'].'</td>';
+		echo '<td>'.$donneesLivre['Titre'].'</td>';
+		echo '<td>'.$donneesLivre['Date'].'</td>';
 		echo '</tr>';
 }
 
